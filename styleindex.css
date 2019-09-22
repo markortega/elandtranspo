@@ -1,0 +1,50 @@
+body {
+  font-family: Century Gothic, Arial
+  color: #F0FFFF;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url(highway.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: auto;
+  height: auto;
+  margin:auto;
+  min-width:600px;
+  max-width:2000px;
+}
+#nav1{
+  height: 65px;
+  font-size: 16px;
+  background: rgba(0,0,0,0.4);
+}
+#nav1 .navbar-brand{
+  color: #ffffff; 
+}
+.nav > li > a{
+  color: #ffffff;
+}
+.nav .active > a,
+.nav .active > a:hover,
+.nav .active > a:focus {
+  color: #ffffff;
+  transition: all .2s ease-in-out;
+}
+.nav > li > a:hover {
+  color: #41f2ef; 
+  transition: all .3s ease-in-out;
+}
+.navbar-nav > li{
+  padding-left:10px;
+  padding-right:10px;
+}
+.footer-copyright {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);;
+  color: white;
+  text-align: center;
+}
